@@ -1,8 +1,16 @@
 #include <iostream>
 
+#include "Print.h"
+
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    Print("Message");
 }
 
+void Print(const char* message) 
+{
+    cout << message << "\n";
+}
 
