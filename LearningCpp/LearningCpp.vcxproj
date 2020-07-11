@@ -88,6 +88,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <Optimization>MaxSpeed</Optimization>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -141,9 +143,14 @@
   <ItemGroup>
     <ClCompile Include="2_SetupWindows.cpp" />
     <ClCompile Include="1_WhyCpp.cpp" />
+    <ClCompile Include="3_HowCppWorks.cpp" />
+    <ClCompile Include="3_Log.cpp" />
+    <ClCompile Include="4_CppCompiler.cpp" />
+    <ClCompile Include="4_Maths.cpp" />
+    <ClCompile Include="5_CppLinker.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Print.h" />
+    <ClInclude Include="Maths.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,9 +21,24 @@
     <ClCompile Include="1_WhyCpp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="3_HowCppWorks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3_Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="4_CppCompiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="4_Maths.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="5_CppLinker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Print.h">
+    <ClInclude Include="Maths.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
