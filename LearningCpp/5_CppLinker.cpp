@@ -1,16 +1,16 @@
 #include <iostream>
 #include "Maths.h"
 
-void Log(const char* message);
-
-int main()
-{
-	Log("Text");
-
-	std::cout << Add(1,2) << std::endl;
-	//waits for a key press.
-	std::cin.get();
-}
+//void Log(const char* message);
+//
+//int main()
+//{
+//	Log("Text");
+//
+//	std::cout << Add(1,2) << std::endl;
+//	//waits for a key press.
+//	std::cin.get();
+//}
 
 /*
 	.Exe lives inside executable.
