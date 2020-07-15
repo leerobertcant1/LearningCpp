@@ -39,6 +39,9 @@
     <ClCompile Include="5_Variables.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="6_Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Maths.h">

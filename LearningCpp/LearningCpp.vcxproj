@@ -149,6 +149,7 @@
     <ClCompile Include="4_Maths.cpp" />
     <ClCompile Include="5_CppLinker.cpp" />
     <ClCompile Include="5_Variables.cpp" />
+    <ClCompile Include="6_Functions.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Maths.h" />
