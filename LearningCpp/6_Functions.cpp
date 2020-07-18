@@ -11,17 +11,17 @@
 	Main function is exempt from this, auto-assumes a return of 0.
 */
 
-#include <iostream>
-
-int Minus(int a, int b)
-{
-	return a - b;
-}
-
-int main()
-{
-	std::cout << Minus(10, 5) << std::endl;
-	
-	// waits for a key press.
-	std::cin.get();
-}
+//#include <iostream>
+//
+//int Minus(int a, int b)
+//{
+//	return a - b;
+//}
+//
+//int main()
+//{
+//	std::cout << Minus(10, 5) << std::endl;
+//	
+//	// waits for a key press.
+//	std::cin.get();
+//}

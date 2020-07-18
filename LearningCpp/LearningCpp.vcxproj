@@ -150,8 +150,11 @@
     <ClCompile Include="5_CppLinker.cpp" />
     <ClCompile Include="5_Variables.cpp" />
     <ClCompile Include="6_Functions.cpp" />
+    <ClCompile Include="7_HeaderFiles.cpp" />
+    <ClCompile Include="8_Debugging.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Log.h" />
     <ClInclude Include="Maths.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
