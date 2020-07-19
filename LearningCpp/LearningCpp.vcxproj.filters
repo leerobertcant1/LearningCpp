@@ -15,45 +15,51 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2_SetupWindows.cpp">
+    <ClCompile Include="src\1_WhyCpp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="1_WhyCpp.cpp">
+    <ClCompile Include="src\2_SetupWindows.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="3_HowCppWorks.cpp">
+    <ClCompile Include="src\3_HowCppWorks.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="3_Log.cpp">
+    <ClCompile Include="src\3_Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="4_CppCompiler.cpp">
+    <ClCompile Include="src\4_CppCompiler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="4_Maths.cpp">
+    <ClCompile Include="src\4_Maths.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="5_CppLinker.cpp">
+    <ClCompile Include="src\5_CppLinker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="5_Variables.cpp">
+    <ClCompile Include="src\5_Variables.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="6_Functions.cpp">
+    <ClCompile Include="src\6_Functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="7_HeaderFiles.cpp">
+    <ClCompile Include="src\7_HeaderFiles.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="8_Debugging.cpp">
+    <ClCompile Include="src\8_Debugging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\9_Ifs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\10_VisualStudioSetup.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Maths.h">
+    <ClInclude Include="src\Maths.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Log.h">
+    <ClInclude Include="src\Log.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

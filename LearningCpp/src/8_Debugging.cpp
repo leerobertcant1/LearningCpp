@@ -16,26 +16,26 @@
 	Use the Memory View to check when there are errors.
 */
 
-int main()
-{
-	const char* initialised = "Initialised";
-	Log(initialised);
-
-	for (int i = 0; i < 5; i++)
-	{
-		const char* loop = "loop";
-		Log(loop);
-
-		if (i == 4) 
-		{
-			break;
-		}
-	}
-
-	int addedNumber = Add(8,9);
-	
-	//Log(addedNumber);
-
-	// waits for a key press.
-	std::cin.get();
-}
+//int main()
+//{
+//	const char* initialised = "Initialised";
+//	Log(initialised);
+//
+//	for (int i = 0; i < 5; i++)
+//	{
+//		const char* loop = "loop";
+//		Log(loop);
+//
+//		if (i == 4) 
+//		{
+//			break;
+//		}
+//	}
+//
+//	int addedNumber = Add(8,9);
+//	
+//	//Log(addedNumber);
+//
+//	// waits for a key press.
+//	std::cin.get();
+//}
