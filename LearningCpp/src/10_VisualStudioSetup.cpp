@@ -1,5 +1,5 @@
-#include <iostream>
-#include "Log.h";
+//#include <iostream>
+//#include "Log.h";
 
 /*
 	Good for general projects.
@@ -24,9 +24,9 @@
 	$()macros can go under edit view and see them.
 */
 
-int main()
-{
-	Log("Project");
-
-	std::cin.get();
-}
+//int main()
+//{
+//	Log("Project");
+//
+//	std::cin.get();
+//}
