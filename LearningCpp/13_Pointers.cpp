@@ -1,5 +1,5 @@
-#include <iostream>
-#include "src/Log.h";
+//#include <iostream>
+//#include "src/Log.h";
 
 /*
 	Most important concept - simple do not overthink.
@@ -21,30 +21,30 @@
 	
 */
 
-int main()
-{
-	//has to find 0 - 0 memory address.
-	void* typeLessPointer = NULL;
-	void* typeLessPointerTwo = nullptr;
-
-	//Stack.
-	int number = 20;
-	void* numberMemoryAddress = &number;
-
-	//This is how we cast pointers.
-	double* castedNumber = (double*) &number;
-	int* recastedNumber = (int*) castedNumber;
-
-	//1 byte for one 8 for 8 chars - pts to beginning of block of memeory.
-	char* chars = new char[8];
-	//Sets the memory.
-	memset(chars, 0, 8);
-
-	//Points to pointers, we have a pointers which points to a memory address
-	char** charsChars = &chars;
-
-	//Heap data must be deleted.
-	delete[] chars;
-
-	std::cin.get();
-}
+//int main()
+//{
+//	//has to find 0 - 0 memory address.
+//	void* typeLessPointer = NULL;
+//	void* typeLessPointerTwo = nullptr;
+//
+//	//Stack.
+//	int number = 20;
+//	void* numberMemoryAddress = &number;
+//
+//	//This is how we cast pointers.
+//	double* castedNumber = (double*) &number;
+//	int* recastedNumber = (int*) castedNumber;
+//
+//	//1 byte for one 8 for 8 chars - pts to beginning of block of memeory.
+//	char* chars = new char[8];
+//	//Sets the memory.
+//	memset(chars, 0, 8);
+//
+//	//Points to pointers, we have a pointers which points to a memory address
+//	char** charsChars = &chars;
+//
+//	//Heap data must be deleted.
+//	delete[] chars;
+//
+//	std::cin.get();
+//}

@@ -152,6 +152,7 @@
     <ClCompile Include="11_Loops.cpp" />
     <ClCompile Include="12_ControlFlow.cpp" />
     <ClCompile Include="13_Pointers.cpp" />
+    <ClCompile Include="14_References.cpp" />
     <ClCompile Include="src\10_VisualStudioSetup.cpp" />
     <ClCompile Include="src\2_SetupWindows.cpp" />
     <ClCompile Include="src\1_WhyCpp.cpp" />
