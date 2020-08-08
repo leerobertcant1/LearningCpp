@@ -66,6 +66,21 @@
     <ClCompile Include="14_References.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="15_Classes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="16_ClassesVsStructs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="19_WritingAClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="20_Static.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="21_StaticForClasses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Maths.h">

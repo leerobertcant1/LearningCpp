@@ -153,6 +153,11 @@
     <ClCompile Include="12_ControlFlow.cpp" />
     <ClCompile Include="13_Pointers.cpp" />
     <ClCompile Include="14_References.cpp" />
+    <ClCompile Include="15_Classes.cpp" />
+    <ClCompile Include="16_ClassesVsStructs.cpp" />
+    <ClCompile Include="19_WritingAClass.cpp" />
+    <ClCompile Include="20_Static.cpp" />
+    <ClCompile Include="21_StaticForClasses.cpp" />
     <ClCompile Include="src\10_VisualStudioSetup.cpp" />
     <ClCompile Include="src\2_SetupWindows.cpp" />
     <ClCompile Include="src\1_WhyCpp.cpp" />

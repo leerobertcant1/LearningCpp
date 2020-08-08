@@ -10,15 +10,15 @@
 	Need to send the number not the value because when passing number back and forth won't work.
 */
 
-int main()
-{
-	int five = 5;
-	int* memoryAddress = &five;
-	int& reference = five;
-
-	reference = 10;
-
-	LogNumber(reference);
-
-	std::cin.get();
-}
+//int main()
+//{
+//	int five = 5;
+//	int* memoryAddress = &five;
+//	int& reference = five;
+//
+//	reference = 10;
+//
+//	LogNumber(reference);
+//
+//	std::cin.get();
+//}
