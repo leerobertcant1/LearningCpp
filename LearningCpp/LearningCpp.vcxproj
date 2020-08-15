@@ -158,6 +158,11 @@
     <ClCompile Include="19_WritingAClass.cpp" />
     <ClCompile Include="20_Static.cpp" />
     <ClCompile Include="21_StaticForClasses.cpp" />
+    <ClCompile Include="22_LocalStatic.cpp" />
+    <ClCompile Include="23_Enums.cpp" />
+    <ClCompile Include="24_Constructors.cpp" />
+    <ClCompile Include="25_Destructors.cpp" />
+    <ClCompile Include="26_Inheritance.cpp" />
     <ClCompile Include="src\10_VisualStudioSetup.cpp" />
     <ClCompile Include="src\2_SetupWindows.cpp" />
     <ClCompile Include="src\1_WhyCpp.cpp" />
