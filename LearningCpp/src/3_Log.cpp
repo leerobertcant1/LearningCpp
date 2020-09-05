@@ -14,3 +14,8 @@ void LogNothing(const char* message)
 {
 	return;
 }
+
+void LogString(const std::string& message)
+{
+	std::cout << message << std::endl;
+}
