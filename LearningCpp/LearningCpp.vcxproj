@@ -167,6 +167,8 @@
     <ClCompile Include="28_Visbility.cpp" />
     <ClCompile Include="29_Arrays.cpp" />
     <ClCompile Include="30_Strings.cpp" />
+    <ClCompile Include="31_StringLiterals.cpp" />
+    <ClCompile Include="32_Const.cpp" />
     <ClCompile Include="src\10_VisualStudioSetup.cpp" />
     <ClCompile Include="src\2_SetupWindows.cpp" />
     <ClCompile Include="src\1_WhyCpp.cpp" />

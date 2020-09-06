@@ -26,20 +26,20 @@
 	If we pass a string pass a const reference.
 */
 
-int main()
-{
-
-	//C style way definition, immutable so better to use const in Cpp.
-	//Not heap allocated - only delete when new.
-	const char* me = "Lee";
-
-	//How it appears in memory.
-	char me2[4] = { 'L', 'e', 'e', '\0' };
-
-	std::string me3 = "Lee";
-	std::string me4 = std::string("Lee ") + "cant";
-
-	LogString(me4);
-
-	std::cin.get();
-}
+//int main()
+//{
+//
+//	//C style way definition, immutable so better to use const in Cpp.
+//	//Not heap allocated - only delete when new.
+//	const char* me = "Lee";
+//
+//	//How it appears in memory.
+//	char me2[4] = { 'L', 'e', 'e', '\0' };
+//
+//	std::string me3 = "Lee";
+//	std::string me4 = std::string("Lee ") + "cant";
+//
+//	LogString(me4);
+//
+//	std::cin.get();
+//}
