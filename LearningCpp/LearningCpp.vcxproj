@@ -169,6 +169,9 @@
     <ClCompile Include="30_Strings.cpp" />
     <ClCompile Include="31_StringLiterals.cpp" />
     <ClCompile Include="32_Const.cpp" />
+    <ClCompile Include="33_Mutable.cpp" />
+    <ClCompile Include="34_ConstructorMemberInitialiserLists.cpp" />
+    <ClCompile Include="35_Ternary.cpp" />
     <ClCompile Include="src\10_VisualStudioSetup.cpp" />
     <ClCompile Include="src\2_SetupWindows.cpp" />
     <ClCompile Include="src\1_WhyCpp.cpp" />

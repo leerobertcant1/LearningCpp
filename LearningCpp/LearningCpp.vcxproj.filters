@@ -114,6 +114,15 @@
     <ClCompile Include="32_Const.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="33_Mutable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="34_ConstructorMemberInitialiserLists.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="35_Ternary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Maths.h">
