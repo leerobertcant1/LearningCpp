@@ -123,6 +123,15 @@
     <ClCompile Include="35_Ternary.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="36_Objects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="37_New.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="38_ImplicitAndExplicitConversion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Maths.h">
