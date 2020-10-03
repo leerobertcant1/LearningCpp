@@ -15,6 +15,11 @@ void LogNumber(int& number)
 	std::cout << number << std::endl;
 }
 
+void LogFloat(float& number)
+{
+	std::cout << number << std::endl;
+}
+
 void LogNothing(const char* message)
 {
 	return;
