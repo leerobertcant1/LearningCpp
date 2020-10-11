@@ -179,6 +179,9 @@
     <ClCompile Include="40_this.cpp" />
     <ClCompile Include="41_ObjectLifetime.cpp" />
     <ClCompile Include="42_SmartPointers.cpp" />
+    <ClCompile Include="43_CopyConstructors.cpp" />
+    <ClCompile Include="44_ArrowOperator.cpp" />
+    <ClCompile Include="45_DynamicArrays.cpp" />
     <ClCompile Include="src\10_VisualStudioSetup.cpp" />
     <ClCompile Include="src\2_SetupWindows.cpp" />
     <ClCompile Include="src\1_WhyCpp.cpp" />

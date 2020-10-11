@@ -22,48 +22,48 @@
 	Should use Smart pointer all the time.
 */
 
-class Person
-{
-public:
-	int age;
-
-	Person(int age)
-	{
-		Log("Created");
-		this->age = age;
-	}
-
-	Person()
-	{
-		Log("Created");
-	}
-
-	~Person()
-	{
-		Log("Deleted");
-	}
-};
-
-int main()
-{
-	{
-		//use bottom for exception handling
-		std::unique_ptr<Person> p(new Person(12));
-		std::unique_ptr<Person> p2 = std::make_unique<Person>(20);
-
-		LogNumber(p->age);
-		LogNumber(p2->age);
-	}
-
-	{
-		std::shared_ptr<Person> p = std::make_shared<Person>(15);
-		LogNumber(p->age);
-
-		std::shared_ptr<Person> p2 = p;
-		LogNumber(p2->age);
-
-		std::weak_ptr<Person> p3 = p;
-	}
-
-	std::cin.get();
-}
+//class Person
+//{
+//public:
+//	int age;
+//
+//	Person(int age)
+//	{
+//		Log("Created");
+//		this->age = age;
+//	}
+//
+//	Person()
+//	{
+//		Log("Created");
+//	}
+//
+//	~Person()
+//	{
+//		Log("Deleted");
+//	}
+//};
+//
+//int main()
+//{
+//	{
+//		//use bottom for exception handling
+//		std::unique_ptr<Person> p(new Person(12));
+//		std::unique_ptr<Person> p2 = std::make_unique<Person>(20);
+//
+//		LogNumber(p->age);
+//		LogNumber(p2->age);
+//	}
+//
+//	{
+//		std::shared_ptr<Person> p = std::make_shared<Person>(15);
+//		LogNumber(p->age);
+//
+//		std::shared_ptr<Person> p2 = p;
+//		LogNumber(p2->age);
+//
+//		std::weak_ptr<Person> p3 = p;
+//	}
+//
+//	std::cin.get();
+//}
