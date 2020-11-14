@@ -199,6 +199,9 @@
     <ClCompile Include="48_DynamicLibraries.cpp" />
     <ClCompile Include="49_MultipleReturnTypescpp.cpp" />
     <ClCompile Include="50_Templates.cpp" />
+    <ClCompile Include="51_StackAndHeapMemory.cpp" />
+    <ClCompile Include="52_Macros.cpp" />
+    <ClCompile Include="53_Auto.cpp" />
     <ClCompile Include="src\10_VisualStudioSetup.cpp" />
     <ClCompile Include="src\2_SetupWindows.cpp" />
     <ClCompile Include="src\1_WhyCpp.cpp" />

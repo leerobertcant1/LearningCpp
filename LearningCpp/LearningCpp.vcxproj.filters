@@ -168,6 +168,15 @@
     <ClCompile Include="50_Templates.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="51_StackAndHeapMemory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="52_Macros.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="53_Auto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Maths.h">
