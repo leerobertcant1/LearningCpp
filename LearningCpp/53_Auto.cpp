@@ -23,23 +23,23 @@
 	
 */
 
-class Person 
-{
-	public:
-		int age;
-};
-
-int main()
-{
-	auto myName = "Lee";
-	auto myAge = 34;
-
-	using Age = Person;
-
-	Age* age;
-
-	delete age;
-	delete myName;
-
-	std::cin.get();
-}
+//class Person 
+//{
+//	public:
+//		int age;
+//};
+//
+//int main()
+//{
+//	auto myName = "Lee";
+//	auto myAge = 34;
+//
+//	using Age = Person;
+//
+//	Age* age;
+//
+//	delete age;
+//	delete myName;
+//
+//	std::cin.get();
+//}

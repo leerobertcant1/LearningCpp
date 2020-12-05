@@ -177,6 +177,18 @@
     <ClCompile Include="53_Auto.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="54_StaticArrays.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="55_FunctionPointers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="56_Lambdas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="57_Namespaces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Maths.h">

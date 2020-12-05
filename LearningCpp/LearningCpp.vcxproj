@@ -202,6 +202,10 @@
     <ClCompile Include="51_StackAndHeapMemory.cpp" />
     <ClCompile Include="52_Macros.cpp" />
     <ClCompile Include="53_Auto.cpp" />
+    <ClCompile Include="54_StaticArrays.cpp" />
+    <ClCompile Include="55_FunctionPointers.cpp" />
+    <ClCompile Include="56_Lambdas.cpp" />
+    <ClCompile Include="57_Namespaces.cpp" />
     <ClCompile Include="src\10_VisualStudioSetup.cpp" />
     <ClCompile Include="src\2_SetupWindows.cpp" />
     <ClCompile Include="src\1_WhyCpp.cpp" />
