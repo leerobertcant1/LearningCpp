@@ -206,6 +206,10 @@
     <ClCompile Include="55_FunctionPointers.cpp" />
     <ClCompile Include="56_Lambdas.cpp" />
     <ClCompile Include="57_Namespaces.cpp" />
+    <ClCompile Include="58_Threads.cpp" />
+    <ClCompile Include="59_Timing.cpp" />
+    <ClCompile Include="60_MultiDimensionalArrays.cpp" />
+    <ClCompile Include="61_Sorting.cpp" />
     <ClCompile Include="src\10_VisualStudioSetup.cpp" />
     <ClCompile Include="src\2_SetupWindows.cpp" />
     <ClCompile Include="src\1_WhyCpp.cpp" />

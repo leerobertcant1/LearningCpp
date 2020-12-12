@@ -29,15 +29,15 @@ namespace Me
 
 
 
-int main()
-{
-    using namespace Me;
-
-    Person person;
-
-    person.SetName("Lee");
-
-    LogString(person.GetName());
-
-    std::cin.get();
-}
+//int main()
+//{
+//    using namespace Me;
+//
+//    Person person;
+//
+//    person.SetName("Lee");
+//
+//    LogString(person.GetName());
+//
+//    std::cin.get();
+//}
