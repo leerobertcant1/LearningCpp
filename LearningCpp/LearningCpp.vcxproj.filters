@@ -201,6 +201,18 @@
     <ClCompile Include="61_Sorting.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="62_TypePunning.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="63_Unions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="64_VirtualDestructors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="65_Casting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Maths.h">

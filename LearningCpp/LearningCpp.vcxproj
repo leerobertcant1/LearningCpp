@@ -210,6 +210,10 @@
     <ClCompile Include="59_Timing.cpp" />
     <ClCompile Include="60_MultiDimensionalArrays.cpp" />
     <ClCompile Include="61_Sorting.cpp" />
+    <ClCompile Include="62_TypePunning.cpp" />
+    <ClCompile Include="63_Unions.cpp" />
+    <ClCompile Include="64_VirtualDestructors.cpp" />
+    <ClCompile Include="65_Casting.cpp" />
     <ClCompile Include="src\10_VisualStudioSetup.cpp" />
     <ClCompile Include="src\2_SetupWindows.cpp" />
     <ClCompile Include="src\1_WhyCpp.cpp" />
