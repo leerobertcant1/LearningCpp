@@ -222,6 +222,10 @@
     <ClCompile Include="68_StructuredBindings.cpp" />
     <ClCompile Include="69_OptionalData.cpp" />
     <ClCompile Include="70_MultipleTypes.cpp" />
+    <ClCompile Include="71_StoreAnyData.cpp" />
+    <ClCompile Include="72_FasterStrings.cpp" />
+    <ClCompile Include="73_Singleton.cpp" />
+    <ClCompile Include="74_SmallStringOptimisation.cpp" />
     <ClCompile Include="src\10_VisualStudioSetup.cpp" />
     <ClCompile Include="src\2_SetupWindows.cpp" />
     <ClCompile Include="src\1_WhyCpp.cpp" />

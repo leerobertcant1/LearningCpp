@@ -1,38 +1,30 @@
-#include <iostream>
-#include <string>
-#include <variant>
-#include "src/Log.h"
-
-/*
-    Cpp 17 feature, new class in standard library.
-    List all possible types and decide what to be later.
-
-    Unions are size of largest type. 
-    Variants store all the types of separate members.
-
-    Variants more type safe, but Unions more efficient.
-    These are useful with error codes with the int.
-*/
-
-int main()
-{
-    std::variant<std::string, int> stuff;
-
-    stuff = "me";
-    std::get<std::string>(stuff);
-
-    if (auto v = std::get_if<std::string>(&stuff))
-    {
-        //checks the correct type.
-    }
-
-    stuff = 34;
-    std::get<int>(stuff);
-
-    if (stuff.index() == 1) 
-    {
-        //checks of the correct index type.
-    }
-
-    std::cin.get();
-}
+//#include <iostream>
+//#include <string>
+//#include <any>
+//#include "src/Log.h"
+//
+///*
+//   Void pointers can store any data.    
+//   CPP 17 version does this with std::any.
+//
+//   Variant a type safe Union, stores data in a Union.
+//   Any small types a union, large type uses Void pointer
+//   then dynamically allocates memory, bad for performance.
+//
+//   std:variant performs better with larger data.
+//   Don't copy data for performance.
+//   String always pass by reference.
+//*/
+//
+//int main()
+//{
+//    std::any anyData;
+//
+//    anyData = 5;
+//    anyData = "test";
+//
+//    //Exception will occur when not correct type.
+//    std::string& newData = std::any_cast<std::string&>(anyData);
+//
+//    std::cin.get();
+//}
