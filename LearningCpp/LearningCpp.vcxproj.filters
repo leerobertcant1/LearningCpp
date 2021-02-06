@@ -237,6 +237,18 @@
     <ClCompile Include="74_SmallStringOptimisation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="75_LAndRValues.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="76_ArgumentEvaluation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="77_MoveSemantics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="78_StdMovecpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Maths.h">

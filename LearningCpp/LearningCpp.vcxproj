@@ -226,6 +226,10 @@
     <ClCompile Include="72_FasterStrings.cpp" />
     <ClCompile Include="73_Singleton.cpp" />
     <ClCompile Include="74_SmallStringOptimisation.cpp" />
+    <ClCompile Include="75_LAndRValues.cpp" />
+    <ClCompile Include="76_ArgumentEvaluation.cpp" />
+    <ClCompile Include="77_MoveSemantics.cpp" />
+    <ClCompile Include="78_StdMovecpp.cpp" />
     <ClCompile Include="src\10_VisualStudioSetup.cpp" />
     <ClCompile Include="src\2_SetupWindows.cpp" />
     <ClCompile Include="src\1_WhyCpp.cpp" />
