@@ -230,7 +230,11 @@
     <ClCompile Include="76_ArgumentEvaluation.cpp" />
     <ClCompile Include="77_MoveSemantics.cpp" />
     <ClCompile Include="78_StdMovecpp.cpp" />
-    <ClCompile Include="79_DataStructures.cpp" />
+    <ClCompile Include="79_CustomArray.cpp" />
+    <ClCompile Include="80_CustomVector.cpp" />
+    <ClCompile Include="81_Iterators.cpp" />
+    <ClCompile Include="82_CustomIterator.cpp" />
+    <ClCompile Include="83_BitwiseOperators.cpp" />
     <ClCompile Include="src\10_VisualStudioSetup.cpp" />
     <ClCompile Include="src\2_SetupWindows.cpp" />
     <ClCompile Include="src\1_WhyCpp.cpp" />
@@ -248,6 +252,7 @@
   <ItemGroup>
     <ClInclude Include="src\Log.h" />
     <ClInclude Include="src\Maths.h" />
+    <ClInclude Include="Vector.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="66_PrecompiledHeaders.cpp" />
