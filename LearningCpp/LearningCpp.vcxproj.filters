@@ -264,6 +264,9 @@
     <ClCompile Include="83_BitwiseOperators.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="84_BitwiseOrXorNot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Maths.h">

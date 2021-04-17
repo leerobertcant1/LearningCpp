@@ -235,6 +235,7 @@
     <ClCompile Include="81_Iterators.cpp" />
     <ClCompile Include="82_CustomIterator.cpp" />
     <ClCompile Include="83_BitwiseOperators.cpp" />
+    <ClCompile Include="84_BitwiseOrXorNot.cpp" />
     <ClCompile Include="src\10_VisualStudioSetup.cpp" />
     <ClCompile Include="src\2_SetupWindows.cpp" />
     <ClCompile Include="src\1_WhyCpp.cpp" />
